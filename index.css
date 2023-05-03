@@ -1,0 +1,292 @@
+nav {
+    background-color: white;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+.grad {
+    background-image: linear-gradient(to right, rgb(240, 98, 162) , yellow);
+    background-size: cover;
+    
+  }
+  .bb{
+    background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    height:80vh;
+    width: 200vh;
+    background-size: cover;
+}
+.back {
+    background-color: rgba(250, 128, 114, 0.5); 
+    padding: 16px;
+    text-align: center;
+    color:white;
+    height: 20vh;
+    width: 40vh;
+    padding-left: 16px;
+    margin-left: 35px;
+    
+    }
+    .bb{
+        background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+        height:80vh;
+        width: 200vh;
+        background-size: cover;
+    }
+    .back {
+        background-color: rgba(250, 128, 114, 0.5); 
+        }
+    
+    
+    .grad {
+            background-image: linear-gradient(to right, rgb(240, 98, 162) , yellow);
+            background-size: cover;
+            height: 100vh;
+          }
+    .container {
+            display: flex;
+            flex-direction: row;
+            margin: 16px;
+            justify-content: space-around;
+            align-items: center;
+          }
+          
+    
+    .nn{
+        background-color: white;
+        height: 250px;
+        width:25vh;
+        border: 1px solid hsl(0, 0%, 80%);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 16px;
+    }
+    .box {
+        border: 1px solid #ccc;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+      }
+      
+      .ima {
+        margin: auto;
+        max-width: 50%;
+        height: auto;
+        align-items: center;
+        border-top-right-radius: 20px;
+        
+      }
+      
+      h3 {
+        margin: 0;
+      }
+      
+      p {
+        margin: 0;
+        text-align: center;
+      }
+      .order{
+        text-align: center;
+        color:white;
+      }
+      .gg{
+        background: transparent;
+        height: 100px;
+        width:150px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 25px;
+        padding: 16px;
+      }
+      .fa-brands fa-whatsapp{
+        height: 16px;
+      }
+      
+    
+@media only screen and (max-width: 600px) {
+    nav {
+      height: 40px;
+    }
+  
+    nav ul li a {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .grad {
+      height: 40vh;
+    }
+  
+    .bb {
+      height: 60vh;
+      width: 100vw;
+    }
+  
+    .back {
+      height: 12vh;
+      width: 28vh;
+      margin-left: 10px;
+    }
+  
+    .container {
+      flex-direction: column;
+      margin: 8px;
+    }
+  
+    .nn {
+      height: 180px;
+      width: 16vh;
+      padding: 10px;
+      border-top-right-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+  
+    .box {
+      height: 30px;
+      border-top-right-radius: 16px;
+      border-bottom-left-radius: 16px;
+      padding: 8px;
+    }
+  
+    .ima {
+      max-width: 70%;
+      border-top-right-radius: 16px;
+    }
+  
+    .gg {
+      height: 60px;
+      width: 120px;
+      border-radius: 16px;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .fa-brands fa-whatsapp {
+      height: 12px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    nav {
+      height: 60px;
+    }
+  
+    nav ul li a {
+      padding: 12px;
+      font-size: 16px;
+    }
+  
+    .grad {
+      height: 50vh;
+    }
+  
+    .bb {
+      height: 80vh;
+      width: 100vw;
+    }
+  
+    .back {
+      height: 16vh;
+      width: 32vh;
+      margin-left: 20px;
+    }
+  
+    .container {
+      margin: 16px;
+    }
+  
+    .nn {
+      height: 200px;
+      width: 20vh;
+      padding: 16px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+  
+    .box {
+      height: 40px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding: 12px;
+    }
+  
+    .ima {
+      max-width: 60%;
+      border-top-right-radius: 20px;
+    }
+  
+    .gg {
+      height: 80px;
+      width: 140px;
+      border-radius: 20px;
+      padding: 12px;
+      font-size: 16px;
+    }
+  
+    .fa-brands fa-whatsapp {
+      height: 14px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1025px) {
+    nav {
+      height: 80px;
+    }
+  
+    nav ul li a {
+      padding: 16px;
+      font-size: 18px;
+    }
+  
+    .grad {
+      height: 60vh;
+    }
+  
+    .bb {
+      height: 80vh;
+      width: 200vh;
+    }
+  
+    .back {
+      height: 20vh;
+      width: 40vh;
+      margin-left: 35px;
+    }
+}
